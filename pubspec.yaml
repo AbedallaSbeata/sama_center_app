@@ -1,0 +1,59 @@
+name: sama
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  font_awesome_flutter:
+  carousel_slider:
+  url_launcher:
+  smooth_page_indicator:
+  marquee:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+  flutter_lints:
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icons/sama.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - lib/assets/icons/
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: fonts/Tajawal-Bold.ttf
+    - family: Reem Kufi
+      fonts:
+        - asset: fonts/ReemKufi-VariableFont_wght.ttf
+    - family: Gulzar
+      fonts:
+        - asset: fonts/Gulzar-Regular.ttf
+    - family: Harmattan
+      fonts:
+        - asset: fonts/Harmattan-Bold.ttf
+    - family: Noto
+      fonts:
+        - asset: fonts/NotoNaskhArabic-VariableFont_wght.ttf
+    - family: Elmessiri
+      fonts:
+        - asset: fonts/ElMessiri-VariableFont_wght.ttf
+    - family: Cairo
+      fonts:
+        - asset: fonts/Cairo-VariableFont_wght.ttf
